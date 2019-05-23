@@ -29,6 +29,6 @@ public class StartStreamPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 3;
+        return 2;
     }
 }

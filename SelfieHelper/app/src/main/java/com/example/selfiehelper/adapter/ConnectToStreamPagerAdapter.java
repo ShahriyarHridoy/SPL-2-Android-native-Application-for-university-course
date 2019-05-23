@@ -11,7 +11,7 @@ import com.example.selfiehelper.ui.fragment.WriteIpAddressFragment;
 
 
 public class ConnectToStreamPagerAdapter extends FragmentPagerAdapter {
-    private static final int CONNECT_TO_STREAM_PAGES = 3;
+    private static final int CONNECT_TO_STREAM_PAGES = 2;
     private HashMap<Integer, Fragment> fragmentHashMap = new HashMap<>();
 
     public ConnectToStreamPagerAdapter(FragmentManager fm) {
