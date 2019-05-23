@@ -6,7 +6,6 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import java.util.HashMap;
 
-import com.example.selfiehelper.ui.fragment.NfcReaderFragment;
 import com.example.selfiehelper.ui.fragment.QrCodeScannerFragment;
 import com.example.selfiehelper.ui.fragment.WriteIpAddressFragment;
 
@@ -26,14 +25,7 @@ public class ConnectToStreamPagerAdapter extends FragmentPagerAdapter {
                 return new WriteIpAddressFragment();
             case 1:
                 return new QrCodeScannerFragment();
-            case 2:
-                //Due to use fragment's method in activity must be added to hashmap. (Pointer reference)
-                if (fragmentHashMap.get(position) != null) {
-                    return fragmentHashMap.get(position);
-                }
-                NfcReaderFragment nfcReaderFragment = new NfcReaderFragment();
-                fragmentHashMap.put(position, nfcReaderFragment);
-                return nfcReaderFragment;
+
             default:
                 break;
         }

@@ -149,11 +149,5 @@ public class SettingsActivity extends TiActivity<SettingsPresenter, SettingsView
         portValue.setText(port);
     }
 
-    @Override
-    @OnClick(R.id.privacy_policy)
-    public void intentToPrivacyPolicy() {
-        Uri uri = Uri.parse(getString(R.string.url_privacy_policy));
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        startActivity(intent);
-    }
+
 }

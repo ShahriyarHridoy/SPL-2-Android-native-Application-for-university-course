@@ -5,7 +5,6 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import com.example.selfiehelper.ui.fragment.IpAddressFragment;
-import com.example.selfiehelper.ui.fragment.NfcFragment;
 import com.example.selfiehelper.ui.fragment.QrCodeFragment;
 
 
@@ -22,8 +21,6 @@ public class StartStreamPagerAdapter extends FragmentPagerAdapter {
                 return new IpAddressFragment();
             case 1:
                 return new QrCodeFragment();
-            case 2:
-                return new NfcFragment();
             default:
                 break;
         }

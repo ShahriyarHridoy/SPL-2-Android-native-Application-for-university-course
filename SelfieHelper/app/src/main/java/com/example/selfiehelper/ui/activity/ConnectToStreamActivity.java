@@ -6,7 +6,6 @@ import android.net.ConnectivityManager;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.widget.ImageView;
 
@@ -21,7 +20,6 @@ import com.example.selfiehelper.R;
 import com.example.selfiehelper.adapter.ConnectToStreamPagerAdapter;
 import com.example.selfiehelper.presenter.ConnectToStreamPresenter;
 import com.example.selfiehelper.receiver.WiFiStateChangeReceiver;
-import com.example.selfiehelper.ui.fragment.NfcReaderFragment;
 import com.example.selfiehelper.ui.listener.OnDotPageChangeListener;
 import com.example.selfiehelper.view.ConnectToStreamView;
 
@@ -33,7 +31,7 @@ public class ConnectToStreamActivity extends TiActivity<ConnectToStreamPresenter
     public static final String INTENT_EXTRA_IP_CONNECT = "ip_connect";
     private ViewPager viewPager;
     private WiFiStateChangeReceiver wiFiStateChangeReceiver = new WiFiStateChangeReceiver();
-    @BindViews({R.id.circle_page1, R.id.circle_page2, R.id.circle_page3}) List<ImageView> dots;
+    @BindViews({R.id.circle_page1, R.id.circle_page2}) List<ImageView> dots;
     private ConnectToStreamPagerAdapter connectToStreamPagerAdapter;
 
     @NonNull
@@ -68,14 +66,7 @@ public class ConnectToStreamActivity extends TiActivity<ConnectToStreamPresenter
         getPresenter().onIntent(intent);
     }
 
-    @Override
-    public void passIntentToNfcReader(Intent intent) {
-        Fragment fragment = connectToStreamPagerAdapter.getItem(PAGE_NFC);
-        if (fragment instanceof NfcReaderFragment) {
-            NfcReaderFragment nfcReaderFragment = (NfcReaderFragment) fragment;
-            nfcReaderFragment.onNfcIntent(intent);
-        }
-    }
+
 
     @Override
     @OnClick(R.id.input_layout)
@@ -89,11 +80,7 @@ public class ConnectToStreamActivity extends TiActivity<ConnectToStreamPresenter
         viewPager.setCurrentItem(PAGE_QR_CODE);
     }
 
-    @Override
-    @OnClick(R.id.nfc_layout)
-    public void SlideToNfcPage() {
-        viewPager.setCurrentItem(PAGE_NFC);
-    }
+
 
     @Override
     public void intentToPlayStreamActivity(String ipAddress) {

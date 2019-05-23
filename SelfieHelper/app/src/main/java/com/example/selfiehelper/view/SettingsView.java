@@ -38,6 +38,5 @@ public interface SettingsView extends TiView {
     @CallOnMainThread
     void changePortSuccessful();
 
-    @CallOnMainThread
-    void intentToPrivacyPolicy();
+
 }
