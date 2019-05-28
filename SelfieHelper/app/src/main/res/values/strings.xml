@@ -26,7 +26,6 @@
     <string name="skip">SKIP</string>
     <string name="done">DONE</string>
     <string name="welcome">Welcome!</string>
-    <string name="nfc">NFC</string>
     <string name="qr_code">QR CODE</string>
     <string name="type_ip">TYPE IP</string>
     <string name="link_to_stream_via_nfc">Link to stream via NFC</string>
@@ -34,12 +33,8 @@
     <string name="ip">IP</string>
     <string name="scan_qr_code">Scan QR Code</string>
     <string name="scan_qr_code_capital">SCAN QR CODE</string>
-    <string name="link_nfc">LINK NFC</string>
     <string name="write_ip_addres">Write ip address</string>
     <string name="connect">Connect</string>
-
-    <string name="link_stream_via_nfc">Link stream via NFC</string>
-    <string name="read_nfc">READ NFC</string>
     <string name="ip_default">255.255.255.255</string>
     <string name="camera_not_found">Camera permission not found.</string>
     <string name="qr_code_not_found">Qr code not found.</string>
@@ -52,14 +47,12 @@
     <string name="about_qr_code"></string>
 
     <string name="wi_fi_disabled">WiFi is disabled..</string>
-    <string name="package_name">pl.hypeapp.vrstream</string>
     <string name="header_enable_wifi">Enable Wi-Fi</string>
     <string name="header_link_via">You can link to stream via</string>
     <string name="or">or</string>
     <string name="ht_wi_fi_enabled">Make sure that wifi on your devices is enabled and connected to the same network.</string>
     <string name="ht_link_via">Linking devices is possible with different ways.</string>
     <string name="ht_welcome_desc">Selfie Helper lets you to stream live video between android devices!</string>
-    <string name="made_by_header">Endoscope made by</string>
     <string name="ht_made_by_desc">Thank you for installing! \n \nContact E-MAIL: \n PSZEM.SZYM@GMAIL.COM</string>
     <string name="dialog_set">SET</string>
     <string name="port_error">Port cannot be empty</string>
@@ -71,4 +64,12 @@
     <string name="error_dialog_title">Error</string>
     <string name="url_privacy_policy">https://github.com/hypeapps/Endoscope/blob/master/privacy-policy.txt</string>
     <string name="privacy_policy">Privacy policy</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 </resources>

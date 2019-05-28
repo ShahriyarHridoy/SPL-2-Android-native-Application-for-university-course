@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "499378708581",
+    "firebase_url": "https://selfiehelper-b6223.firebaseio.com",
+    "project_id": "selfiehelper-b6223",
+    "storage_bucket": "selfiehelper-b6223.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499378708581:android:90bdf1b42522acb6",
+        "android_client_info": {
+          "package_name": "com.example.selfiehelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499378708581-pd1oe5eci1vssqh962425cifg13thv0t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.selfiehelper",
+            "certificate_hash": "2d33e082aae2bece0d4c017059ca724c0686c0aa"
+          }
+        },
+        {
+          "client_id": "499378708581-s2180dnpv0vospvcsgqs31v9saju0g09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnrnUoMBe7zthik8J2T7KzrxDI0Phh2ec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499378708581-s2180dnpv0vospvcsgqs31v9saju0g09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

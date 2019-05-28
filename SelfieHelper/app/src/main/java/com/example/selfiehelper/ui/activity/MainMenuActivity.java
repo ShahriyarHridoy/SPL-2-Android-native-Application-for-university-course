@@ -3,6 +3,7 @@ package com.example.selfiehelper.ui.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 
 import com.example.selfiehelper.R;
@@ -24,6 +25,10 @@ public class MainMenuActivity extends AppCompatActivity {
     }
     public void intentSettings(View View) {
         Intent i = new Intent(MainMenuActivity.this, SettingsActivity.class);
+        startActivity(i);
+    }
+    public void onlineStream(View View) {
+        Intent i = new Intent(MainMenuActivity.this, LoginActivity.class);
         startActivity(i);
     }
 

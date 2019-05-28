@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 28
@@ -6,12 +7,15 @@ android {
 
     defaultConfig {
         applicationId "com.example.selfiehelper"
-        minSdkVersion 15
+        minSdkVersion 17
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    dataBinding {
+        enabled = true
     }
     buildTypes {
         release {
@@ -31,6 +35,12 @@ def rxJavaVersion = '1.2.7'
 def rxAndroidVersion = '1.2.1'
 
 dependencies {
+    //implementation 'com.google.android.gms:play-services-auth:11.0.4'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:support-annotations:28.0.0'
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    implementation 'com.google.firebase:firebase-auth:17.0.0'
+    implementation 'com.google.firebase:firebase-database:17.0.0'
     annotationProcessor "com.jakewharton:butterknife-compiler:$butterKnifeVersion"
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':libstreaming')
@@ -41,6 +51,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation "com.dlazaro66.qrcodereaderview:qrcodereaderview:$qrCodeReaderViewVersion"
     implementation "com.android.support:support-core-utils:28.0.0"
+    implementation 'com.android.support:design:28.0.0'
 
     implementation "com.github.kenglxn.QRGen:android:2.5.0"
     implementation "com.jakewharton:butterknife:$butterKnifeVersion"
