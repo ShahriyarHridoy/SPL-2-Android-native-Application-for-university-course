@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/start_stream_background">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/settings_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/header_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/label_group_name"/>
+
+            <EditText
+                android:id="@+id/editTextGroupName"
+                style="@style/text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingLeft="80dp"
+                android:paddingRight="90dp"
+                android:inputType="textCapSentences"/>
+
+            <Button
+                android:id="@+id/btn_createGroup"
+
+                android:text="Create"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                />
+
+
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:text="@string/about_nfc_description" />
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
