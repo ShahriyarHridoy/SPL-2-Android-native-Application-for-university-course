@@ -53,7 +53,6 @@
     <string name="ht_wi_fi_enabled">Make sure that wifi on your devices is enabled and connected to the same network.</string>
     <string name="ht_link_via">Linking devices is possible with different ways.</string>
     <string name="ht_welcome_desc">Selfie Helper lets you to stream live video between android devices!</string>
-    <string name="ht_made_by_desc">Thank you for installing! \n \nContact E-MAIL: \n PSZEM.SZYM@GMAIL.COM</string>
     <string name="dialog_set">SET</string>
     <string name="port_error">Port cannot be empty</string>
     <string name="grant_permission_to_camera">Grant permission to camera</string>
@@ -62,8 +61,6 @@
     <string name="receiver_back_to_menu">BACK TO MAIN MENU</string>
     <string name="rtsp_connecting">Stream connecting… It can take a while</string>
     <string name="error_dialog_title">Error</string>
-    <string name="url_privacy_policy">https://github.com/hypeapps/Endoscope/blob/master/privacy-policy.txt</string>
-    <string name="privacy_policy">Privacy policy</string>
     <string name="title_activity_login">Sign in</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>

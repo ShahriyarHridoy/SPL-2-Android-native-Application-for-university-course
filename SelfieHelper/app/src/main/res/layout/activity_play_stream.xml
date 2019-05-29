@@ -25,7 +25,7 @@
             android:layout_gravity="bottom|right"
             android:layout_marginTop="10dp"
             android:rotation="-90"
-            android:src="@drawable/endoscope_icon_text"/>
+            android:src="@drawable/selfiehelper_icon_text"/>
 
     </RelativeLayout>
 

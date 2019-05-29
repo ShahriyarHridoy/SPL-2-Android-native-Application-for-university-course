@@ -48,7 +48,7 @@ public class SplashScreenActivity extends TiActivity<SplashScreenPresenter, Spla
             @Override
             public void onAnimationStart() {
                 ((AnimationDrawable) logoIcon.getBackground()).start();
-                logoTextSwap.setImageResource(R.drawable.hypeap_logo_text);
+                logoTextSwap.setImageResource(R.drawable.selfiehelper_logo_text);
             }
 
             @Override

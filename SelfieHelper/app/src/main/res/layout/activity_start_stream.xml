@@ -23,7 +23,7 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="10dp"
-            android:src="@drawable/endoscope_icon_text"/>
+            android:src="@drawable/selfiehelper_icon_text"/>
 
     </RelativeLayout>
 

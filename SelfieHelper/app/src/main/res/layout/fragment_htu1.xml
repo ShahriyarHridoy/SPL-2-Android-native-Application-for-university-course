@@ -29,13 +29,13 @@
                 android:id="@+id/endoscope_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
-                android:src="@drawable/endoscope_icon" />
+                android:src="@drawable/selfiehelper_icon" />
 
             <ImageView
                 android:id="@+id/endoscope_text"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
-                android:src="@drawable/endoscope_icon_text" />
+                android:src="@drawable/selfiehelper_icon_text" />
         </LinearLayout>
 
         <TextView

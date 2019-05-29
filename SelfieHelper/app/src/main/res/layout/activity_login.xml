@@ -8,6 +8,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
+    android:background="@color/settings_background"
     tools:context="com.example.selfiehelper.ui.activity.LoginActivity">
 
     <TextView
@@ -18,15 +19,17 @@
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:text="User Login "
-        android:textColor="#000"
-        android:textSize="20dp"
+
+        android:layout_marginBottom="20dp"
+        style="@style/header_style"
         android:hint="df"/>
+
 
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
-
+        android:hint="Enter UserEmail"
         android:textColor="#000"
         android:ems="10"
         android:layout_below="@+id/textView"
