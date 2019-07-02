@@ -4,15 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/main_background"
-    android:orientation="vertical"
-    android:weightSum="5">
+    android:orientation="vertical">
 
     <RelativeLayout
         android:id="@+id/header_logo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center_vertical|center_horizontal">
+        android:layout_height="430dp"
+        android:gravity="center_vertical|center_horizontal"
+        >
 
         <ImageView
             android:id="@+id/endoscope_text"
@@ -92,7 +91,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/section_down"
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="2"
@@ -150,8 +149,50 @@
                 android:textSize="15sp" />
         </LinearLayout>
 
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/section_down"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:focusableInTouchMode="false"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/Hotspot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/hotspot_group_open"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="hotspotChat"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/icon_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_myplaces" />
+
+            <TextView
+
+                style="@style/text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hotspot Group Chat"
+                android:textSize="15sp" />
+        </LinearLayout>
 
     </LinearLayout>
+
+
+
+
 </LinearLayout>
 
 

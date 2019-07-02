@@ -12,8 +12,10 @@
     <color name="view_stream_background">#962a3a</color>
     <color name="settings_background">#9e6638</color>
     <color name="how_to_use_background">#651d28</color>
+    <color name="hotspot_group_open">#d77711</color>
 
     <color name="colorWlk_page1">#FFF59365</color>
+    <color name="hotspotChat_background">#550</color>
 
 
 </resources>

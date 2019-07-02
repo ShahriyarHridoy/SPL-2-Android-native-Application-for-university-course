@@ -31,6 +31,11 @@
         <activity
             android:name=".ui.activity.Register"
             android:label="activity_Register"></activity>
+
+        <activity
+            android:name=".ui.activity.hotspot.HotspotGroupChat"
+            android:label="@string/title_activity_HotspotChat"></activity>
+
         <activity
             android:name=".ui.activity.MainMenuActivity"
             android:screenOrientation="portrait"

@@ -1,4 +1,4 @@
-package com.example.selfiehelper.ui.activity;
+package com.example.selfiehelper.ui.activity.hotspot;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,10 +19,10 @@ import com.abemart.wroup.common.listeners.DataReceivedListener;
 import com.abemart.wroup.common.messages.MessageWrapper;
 import com.abemart.wroup.service.WroupService;
 
+import com.example.selfiehelper.R;
 
 import java.util.ArrayList;
-import com.example.selfiehelper.adapter.ChatAdapter;
-import com.example.selfiehelper.R;
+
 
 
 public class GroupChatActivity extends AppCompatActivity implements DataReceivedListener, ClientConnectedListener, ClientDisconnectedListener {

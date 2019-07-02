@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 
 import com.example.selfiehelper.R;
+import com.example.selfiehelper.ui.activity.hotspot.HotspotGroupChat;
 
 public class MainMenuActivity extends AppCompatActivity {
 
@@ -29,6 +30,10 @@ public class MainMenuActivity extends AppCompatActivity {
     }
     public void onlineStream(View View) {
         Intent i = new Intent(MainMenuActivity.this, LoginActivity.class);
+        startActivity(i);
+    }
+   public void hotspotChat(View View) {
+        Intent i = new Intent(MainMenuActivity.this, HotspotGroupChat.class);
         startActivity(i);
     }
 
