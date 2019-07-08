@@ -9,7 +9,7 @@
     <RelativeLayout
         android:id="@+id/header_logo"
         android:layout_width="match_parent"
-        android:layout_height="430dp"
+        android:layout_height="460sp"
         android:gravity="center_vertical|center_horizontal"
         >
 
@@ -160,7 +160,10 @@
         android:layout_height="match_parent"
         android:layout_weight="2"
         android:focusableInTouchMode="false"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@color/hotspot_group_open">
+
+
 
 
         <LinearLayout
@@ -186,7 +189,27 @@
                 android:layout_height="wrap_content"
                 android:text="Hotspot Group Chat"
                 android:textSize="15sp" />
+
+
+
+
         </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <com.nightonke.boommenu.BoomMenuButton
+                android:id="@+id/bmb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+
 
     </LinearLayout>
 

@@ -64,4 +64,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 
     implementation 'com.abemart.wroup:wroup:0.9'
+    implementation 'com.nightonke:boommenu:2.1.1'
 }
