@@ -1,7 +1,7 @@
 package com.example.selfiehelper.presenter;
 
 import android.Manifest;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.tbruyelle.rxpermissions.Permission;
 import com.tbruyelle.rxpermissions.RxPermissions;

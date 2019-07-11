@@ -2,20 +2,18 @@ package com.example.selfiehelper.ui.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.view.View;
+
 
 import com.example.selfiehelper.R;
 import com.example.selfiehelper.ui.activity.hotspot.HotspotGroupChat;
-import com.nightonke.boommenu.Animation.BoomEnum;
 import com.nightonke.boommenu.BoomButtons.ButtonPlaceEnum;
 import com.nightonke.boommenu.BoomButtons.TextOutsideCircleButton;
 import com.nightonke.boommenu.BoomMenuButton;
 import com.nightonke.boommenu.ButtonEnum;
 import com.nightonke.boommenu.Piece.PiecePlaceEnum;
-
-import java.lang.reflect.Array;
 
 public class MainMenuActivity extends AppCompatActivity {
 
@@ -29,7 +27,7 @@ public class MainMenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
 
-        bmb = findViewById(R.id.bmb);
+        bmb = (BoomMenuButton) findViewById(R.id.bmb);
 
         bmb.setButtonEnum(ButtonEnum.TextOutsideCircle);
         bmb.setButtonPlaceEnum(ButtonPlaceEnum.SC_5_3);

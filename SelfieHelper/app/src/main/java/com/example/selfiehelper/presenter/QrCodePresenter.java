@@ -1,7 +1,7 @@
 package com.example.selfiehelper.presenter;
 
 import android.graphics.Bitmap;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import net.glxn.qrgen.android.QRCode;
 import net.grandcentrix.thirtyinch.TiPresenter;
